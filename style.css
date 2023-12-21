@@ -1,0 +1,151 @@
+/*GENERAL*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{ margin: 0;
+padding:0;
+}
+
+body {font-family: "Poppins", sans-serif;}
+
+html{scroll-behavior: smooth;}
+
+p{color: rgb (85,85,85);}
+
+/*TRANSITION*/
+
+a,.btn {transition :300ms ease}
+
+/*DESKTOP-NAV*/
+
+nav,.nav-links {display: flex;}
+nav ul { list-style: none; padding: 0; display: flex; font-size: 1.5rem; }
+nav li { margin-left: 2em; }
+nav a {text-decoration:none;color: black;}
+nav a:hover { color:  pink;text-decoration: underline; text-underline-offset: 1rem; }
+nav {justify-content: space-around;align-items: center;height: 17vh;}
+
+.logo{font-size: 2rem;}
+
+
+/*SECTIONS*/
+
+section{ padding-top: 4vh; height: 96vh; margin: 10rem; box-sizing: border-box; min-height: fit-content;}
+
+.section-container{display: flex;}
+
+/*PROFILE SECTION*/
+
+#Profile{display: flex; justify-content: center; gap: 16rem; height: 80vh;}
+
+.section__pic-container {display: flex; height: 700px; width: 400px; ;}
+
+.section__text{ align-self: center; text-align: center; }
+
+.section__text p{ font-weight: 600;}
+
+.section_text_p1{text-align: center; align-self: center;}
+
+.section__text_p2{font-size: 1.75rem; margin-bottom:1rem}
+
+.title{ font-size: 3 rem; text-align:center}
+
+.btn-container{ display:flex; justify-content: center; gap:1rem;}
+
+/*ABOUT SECTION*/
+
+#about {position: relative;}
+
+.about-containers{ gap:2rem; margin-bottom: 2rem; margin-top: 2rem;}
+
+.about-details-container{ justify-content: center;  }
+
+.about-containers, .about-details-container{ display: flex;}
+
+.about-pic {border-radius:2rem; height: 500px;}
+
+.details-container{ padding: 1.5rem; background: white; border-radius: 2rem; border:pink 0.1rem solid; text-align: center; width: 500px;}
+
+ .section-container{ gap:4rem; height: 80%;}
+
+ .section__pic-container{height: 500px; width: 500px; margin: auto 0;}
+
+ /*SKILLSET SECTION*/
+
+ .skillset{position:relative; align-items: center;}
+ .skillset-sub-title{color: rgb 174,0,225;
+ font-weight:600;
+ font-size:1.7rem;
+ margin-bottom:2rem;
+ }
+ 
+ .skillset-details-container{display:flex;
+ justify-content:center;
+ flex-direction: column;
+ margin-left: 6rem;}
+
+ /*WORK SECTION*/
+
+ .work{position:relative; align-items: center;}
+
+ .work-details-container{display:flex;
+    justify-content:center;
+    flex-direction: row;}
+
+.work-container{ padding: 1.5rem; border-radius: 2rem; border:pink 0.1rem solid; text-align: center; }
+
+
+/*CONTACT*/
+
+#contact { display: flex; justify-content: center; flex-direction: column; height: 70vh ;}
+
+.contact-info-upper-container{ display: flex; justify-content: center; border-radius: 2rem; border:rgb(172, 162, 164); border-color:pink; background: (250,250,250); margin: 2rem auto; padding: 0.5rem; }
+
+.contact-info-container{ display: flex; align-items: center; justify-content: center; gap: 0.5rem; margin: 1rem;}
+
+.contact-info-container p{font-size: large;}
+
+ /* Style the form element with a border around it */
+
+
+ form {
+  border: 4px solid #f1f1f1; background-color: rgb(231, 227, 227); align-items: end;
+}
+
+/* Add some padding to containers */
+.container {
+  padding: 20px;}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: flex;
+  border: 5px ;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+/* FOOTER SECTION */
+
+footer{height: 26vh; margin: 0 1rem;}
+
+footer p{text-align: center;}
